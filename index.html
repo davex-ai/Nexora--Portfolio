@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexora's Portfolio">
+  <link rel="stylesheet" href="style.css">
+  <title>Nexora | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="shortcut icon" href="Images/Gemini_favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="bg"></div>
+  <nav class="nav">
+    <div class="container-nav">
+
+      <label class="name">Name</label>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- 🔥 CONTACT ICONS SECTION -->
+      <div class="contact-icons">
+        <a href="https://github.com/Nexora001" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:omotoyedave4@gmail.com">
+          <i class="fab fa-envelope"></i>
+        </a>
+        <a href="https://www.tiktok.com/@nexora.001" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>`
+  </nav>
+
+  <section style="height: 45vh;" id="intro">
+    <h1 class="typing">Hi! Nexora Here :-)</h1>
+    <p>Aspiring Software Engineer | Game Developer</p>
+  </section>
+
+  <hr class="section-divider">
+
+
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-img">
+        <img src="Images/me.jpg" alt="">
+      </div>
+
+      <div class="about-text">
+        <p>Hello, I’m Nexora. I'm ambitious and curiosity driven. Here are some technologies I’m learning </p>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>Web Design</li>
+        </ul>
+        <p> I'm fascinated by large-scale, high-impact products and service. My curiosity and love for solving problems
+          are what brought me to tech </p>
+        <p>I'm currently in my 2nd semester at <a href="https://www.niit.com/NIGERIA">N.I.I.T.</a>and I aim to go beyond
+          what’s expected.</p>
+        <p>Outside of my studies Im also an author, content-creator, and I play Video Games</p>
+      </div>
+
+    </div>
+  </section>
+
+  <h1 class="section-divider"></h1>
+
+  <section class="project-section">
+    <h2>Projects</h2>
+    <div class="slide-contents">
+      <div class="project-text on">
+        <h2> LogIQ Scientific Calculator </h2>
+        <p> An advanced desktop calculator built for students, engineers, and developers. it supports complex scientific
+          functions, memory storage, equation history, unit conversion, and a customizable interface. </p>
+        <div class="project-link">
+          <a href="https://github.com/Nexora001" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fas fa-gamepad"></i></a>
+        </div>
+      </div>
+
+      <div class="project-text">
+        <h2>Veilborn (Book Project)</h2>
+        <p>A thrilling R-rated novel series exploring superpowers, morality, betrayal, and rebellion.</p>
+        <div class="project-link">
+          <a href="#"><i class="fab fa-wattpad"></i></a>
+          <a href="#"><i class="fas fa-book-open"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <canvas id="cubeCanvas"></canvas>
+  <!-- Particles.js CDN -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('bg', 'particles.json', function () {
+      console.log('Particles.js config loaded');
+    });
+  </script>
+
+
+</body>
+
+</html>
